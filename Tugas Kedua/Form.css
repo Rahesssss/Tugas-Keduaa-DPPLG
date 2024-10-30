@@ -55,18 +55,31 @@ body {
     color: rgb(0, 0, 0);
   }
   
-  .btn {
-    display: block;
-    text-align: center;
-    padding: 10px;
-  }
-  
-  .btn button {
+  button {
+    display: flex;
+    align-items: center;
+    height: 30px;
     width: 100px;
-    height: 25px;
-    border: 1px solid #000000;
+    margin: 0 10px;
     border-radius: 10px;
-    
+    cursor: pointer;
+    border: 1px solid;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+button:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.button-container {
+  display: flex;            
+  justify-content: center;  
+  align-items: center;      
+  margin-top: 15px;
 }
   
   html,
@@ -74,4 +87,5 @@ body {
     height: 100%;
     overflow: hidden;
   }
+
 
