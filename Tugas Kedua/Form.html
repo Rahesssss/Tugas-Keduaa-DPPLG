@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulir Anggota Perpustakaan</title>
+  <link rel="stylesheet" href="Form.css">
+</head>
+<body>
+  <div class="container">
+  <div class="input">
+    <h2>Form Anggota Perpustakaan</h2>
+    <form>
+      <div class="input">
+      <label for="nama">Nama:</label><br> 
+      <input type="text" placeholder="Nama Lengkap... "> 
+      </div>
+
+     
+        <div class="input">
+        <label for="Kota">Kota Lahir:</label><br>
+        <input type="text" list="kota-lahir" placeholder="Kota Lahir mu...">
+        <datalist id="kota-lahir">
+          <option value="Semarang">Semarang</option>
+          <option value="Solo">Solo</option>
+          <option value="Sukoharjo">Sukoharjo</option>
+          <option value="Salatiga">Salatiga</option>
+          <option value="Demak">Demak</option>
+          <option value="Sragen">Sragen</option>
+          <option value="Surakarta">Surakarta</option>
+          <option value="Pekalongan">Pekalongan</option>
+          <option value="Klaten">Klaten</option>
+          <option value="Magelang">Magelang</option>
+          <option value="Yogyakarta">Yogyakarta</option>
+          <option value="Purworejo">Purworejo</option>
+          <option value="Bantul">Bantul</option>
+          <option value="Sleman">Sleman</option>
+          <option value="Banyuwangi">Banyuwangi</option>
+          <option value="Gresik">Gresik</option>
+          <option value="Sidoarjo">Sidoarjo</option>
+          <option value="Bangkalan">Bangkalan</option>
+          <option value="Madiun">Madiun</option>
+          <option value="Surabaya">Surabaya</option>
+          <option value="Malang">Malang</option>
+          <option value="Jember">Jember</option>
+          <option value="Batu">Batu</option>
+          <option value="Mojokerto">Mojokerto</option>
+        </datalist>
+      </div>
+     
+
+      <div class="input">
+        <label for="tgl">Tempat Tanggal Lahir:</label><br>
+        <input type="date">
+      </div>
+
+      
+        <div class="input">
+        <label>Gender:</label><br>
+        <div class="inline">
+        <input type="radio" name="kelamin" id="pria">Pria
+        <input type="radio" name="kelamin" id="wanita">Wanita
+        </div>
+      </div>
+    
+    
+    <div class="input">
+      <label for="tlp">No Telpon:</label><br>
+      <input type="number" placeholder="Nomor Telpon...">
+    </div>
+
+    <div class="input">
+      <label for="buku_fav">Game Favorit:</label><br>
+      <div class="inline">
+      <input type="checkbox" name="game_fav" value="Rpg">Elden Ring
+      <input type="checkbox" name="game_fav" value="Fps">Call Of Duty
+      <input type="checkbox" name="game_fav" value="Open World">The Legend Of Zelda
+      <input type="checkbox" name="game_fav" value="Moba">Dota 2
+      </div>
+    </div>
+
+    
+    <label for="agama">Agama</label><br />
+    <select id="agama" name="agama">
+      <option value="Islam">Islam</option>
+      <option value="Kristen">Kristen</option>
+      <option value="Katholik">Katholik</option>
+      <option value="Hindu">Hindu</option>
+      <option value="Buddha">Buddha</option>
+      <option value="Konghucu">Konghucu</option>
+    </select>
+    
+    
+    <div class="input">
+      <label for="alamat">Alamat:</label><br>
+      <textarea placeholder="Alamat rumah mu..." ></textarea>
+    </div>
+    
+    <div class="btn">
+      <button type="clear">Clear</button>
+      <button type="submit">Send</button>
+    </div>
+  </div>
+  </form>
+</body>
+</html>

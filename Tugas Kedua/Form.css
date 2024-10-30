@@ -1,0 +1,77 @@
+body {
+    background: url(Satrio.png)
+      center center
+      no-repeat fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    border: dashed 4px rgb(0, 0, 0);
+    border-radius: 30px;
+    background-color: rgb(79, 72, 82);
+    opacity: 0.7;
+    width: 85%;
+    height: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: justify;
+    box-shadow: #000000 5px 5px 5px 5px;
+  }
+  
+  .input h2 {
+    text-align: center;
+    border-bottom: dashed 2px rgb(1, 1, 1);
+    color: rgb(0, 0, 0);
+    padding: 0%;
+  }
+  
+  .input {
+    margin: auto;
+  }
+  
+  .input input,
+  .input select,
+  .input textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #080707;
+    border-radius: 5px;
+  }
+  
+  .input .inline {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .input .inline input {
+    width: auto;
+  }
+  .input .inline label {
+    display: inline;
+  }
+  
+  .input label {
+    color: rgb(0, 0, 0);
+  }
+  
+  .btn {
+    display: block;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .btn button {
+    width: 100px;
+    height: 25px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    
+}
+  
+  html,
+  body {
+    height: 100%;
+    overflow: hidden;
+  }
+
